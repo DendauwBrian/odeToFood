@@ -6,3 +6,13 @@
 
 <h2>ClientRestaurant</h2>
 
+@section Scripts {
+    @* Place in it's own js file *@
+    <script>
+        $(function () {
+            $.ajax("/api/restaurants/", { method: "get" })
+                .then(response => { console.log(response);})
+        })
+
+    </script>
+}

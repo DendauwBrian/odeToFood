@@ -9,9 +9,6 @@ namespace odeToFood.Pages.Restaurants
 {
     public class ClientRestaurantModel : PageModel
     {
-        public void OnGet()
-        {
-
-        }
+        
     }
 }
