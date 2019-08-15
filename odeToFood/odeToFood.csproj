@@ -14,8 +14,4 @@
     <ProjectReference Include="..\odeToFood.Data\odeToFood.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Pages\R2\" />
-  </ItemGroup>
-
 </Project>
